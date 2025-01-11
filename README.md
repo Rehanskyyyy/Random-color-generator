@@ -8,7 +8,7 @@ A simple web application that generates random colors at the click of a button. 
 ▸ Shows the HEX/RGB code of the generated color for reference.
 
 ● Demo
-[Add a link here if you host the project online, e.g., GitHub Pages.]
+▸ https://rehanskyyyy.github.io/Random-color-generator/
 
 ● Technologies Used
 ▸ HTML: For structuring the webpage.
