@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        main {
+            height: calc(100vh - 120px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            font-size: 30px;
+            margin: 40px;
+        }
+
+        button {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+            padding: 10px 30px;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 15px;
+        }
+
+        footer{
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+            color: white;
+        }
+
+        footer a{
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            .box{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                width: 80vw;
+            }
+
+            .btn{
+                position: fixed;
+                margin-top: 220px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="box">Click on the button to change Colors</div>
+
+        <button class="btn">Change Colors</button>
+    </main>
+
+    <footer>
+        <span>&copy; Created by <a href="https://x.com/Rehanskyyyy">Rehanskyyyy</a></span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
